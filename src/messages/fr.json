@@ -1,0 +1,228 @@
+{
+  "Theme": {
+    "toggle": "Changer le thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "Metadata": {
+    "name": "Salma Daadoucha",
+    "title": "Salma Daadoucha | Ingénieure logiciel Full-Stack",
+    "description": "Portfolio de Salma Daadoucha, ingénieure logiciel Full-Stack spécialisée dans les applications web modernes et les plateformes SaaS."
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "services": "Services",
+    "contact": "Contact",
+    "menu": "Ouvrir le menu de navigation",
+    "description": "Naviguer entre les différentes sections du portfolio.",
+    "goHome": "Aller à la section d'accueil",
+    "desktopNavigation": "Navigation principale",
+    "mobileNavigation": "Navigation mobile"
+  },
+  "Language": {
+    "change": "Changer de langue"
+  },
+
+  "Hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Salma Daadoucha",
+    "title": "Ingénieure Logiciel Full-Stack",
+    "headline": "Je conçois et développe des produits numériques évolutifs, des interfaces soignées aux plateformes SaaS complètes.",
+    "description": "Ingénieure Logiciel Full-Stack spécialisée en Next.js, NestJS et dans la conception de produits numériques modernes. Je transforme les idées et les besoins métier en applications web fiables, maintenables et centrées sur l’utilisateur.",
+    "availability": "Disponible pour des projets freelance",
+    "specialization": "Développement Next.js et SaaS",
+    "projectsButton": "Découvrir mes projets",
+    "contactButton": "Démarrer un projet",
+    "socialLinks": "Réseaux sociaux",
+    "emailLabel": "M’envoyer un e-mail",
+    "location": "Basée en Tunisie · Disponible à distance",
+    "floatingLabel": "Stack principale",
+    "panel": {
+      "eyebrow": "Ce que je peux apporter",
+      "title": "Une approche orientée produit",
+      "fullStackTitle": "Développement de bout en bout",
+      "fullStackDescription": "Des systèmes frontend modernes aux API, bases de données et processus de déploiement.",
+      "productTitle": "Une expérience utilisateur réfléchie",
+      "productDescription": "Des interfaces conçues pour être claires, cohérentes, responsives et adaptées aux besoins réels des entreprises.",
+      "stackTitle": "Technologies que j’utilise",
+      "freelanceTitle": "Prête pour votre prochain projet",
+      "freelanceDescription": "Disponible pour des missions frontend, full-stack, SaaS, de modernisation d’interfaces et d’intégration d’API."
+    }
+  },
+  "About": {
+    "eyebrow": "À propos de moi",
+    "title": "Je développe des applications modernes qui apportent une réelle valeur aux entreprises.",
+    "descriptionOne": "Je suis ingénieure logiciel Full-Stack basée en Tunisie, spécialisée dans le développement d'applications web modernes, évolutives et centrées sur l'utilisateur avec Next.js, React, NestJS et PostgreSQL.",
+    "descriptionTwo": "À travers mes projets académiques et mes stages professionnels, j'ai travaillé sur des plateformes SaaS, des solutions éducatives et la modernisation d'interfaces. Je recherche des opportunités freelance pour créer des produits fiables, améliorer des applications existantes et transformer des idées en expériences numériques soignées.",
+    "highlights": {
+      "frontend": {
+        "title": "Développement frontend moderne",
+        "description": "Interfaces responsives et accessibles avec Next.js, React, TypeScript, Tailwind CSS et shadcn/ui."
+      },
+      "fullstack": {
+        "title": "Applications SaaS Full-Stack",
+        "description": "Développement complet avec NestJS, GraphQL, PostgreSQL, Docker et des workflows de déploiement modernes."
+      },
+      "location": {
+        "title": "Basée en Tunisie",
+        "description": "Disponible pour des missions freelance à distance et des collaborations internationales."
+      }
+    }
+  },
+  "Skills": {
+    "eyebrow": "Compétences techniques",
+    "title": "Les technologies que j'utilise pour créer des produits modernes.",
+    "description": "J'interviens sur le frontend, le backend, les bases de données et le déploiement afin de développer des applications web complètes et maintenables.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend et API",
+      "database": "Base de données",
+      "devops": "Outils et DevOps"
+    }
+  },
+
+  "Projects": {
+    "eyebrow": "Projets sélectionnés",
+    "title": "Projets que j’ai réalisés",
+    "description": "Une sélection de projets académiques et professionnels couvrant le développement full-stack, les plateformes SaaS, les applications en temps réel et les solutions basées sur l’IA.",
+
+    "featured": {
+      "label": "Projet à la une",
+      "period": "PFE · 2026"
+    },
+
+    "hrsmartly": {
+      "category": "Projet professionnel",
+      "title": "HRSmartly",
+      "subtitle": "Plateforme intelligente de gestion des ressources humaines",
+      "description": "Une plateforme SaaS multi-tenant conçue pour centraliser et automatiser les opérations RH, en combinant des workflows de recrutement et des outils d’analyse avec l’IA pour l’analyse des CV, l’évaluation des candidats, la correspondance des compétences et la génération d’offres d’emploi."
+    },
+
+    "academic": {
+      "title": "Projets académiques",
+      "description": "Des applications full-stack développées au cours de mon parcours académique, explorant différentes architectures, technologies et cas d’utilisation concrets."
+    },
+
+    "jobnest": {
+      "category": "Projet académique",
+      "title": "JobNest",
+      "description": "Une marketplace freelance full-stack mettant en relation clients et freelances à travers la recherche de missions, les candidatures, la collaboration, la messagerie en temps réel et les évaluations."
+    },
+
+    "unityhr": {
+      "category": "Projet académique",
+      "title": "UnityHR",
+      "description": "Une plateforme full-stack de gestion des ressources humaines conçue pour centraliser la gestion des employés, le recrutement, les congés, la paie, la formation et les certifications."
+    },
+
+    "edusmart": {
+      "category": "Projet académique",
+      "title": "EduSmart",
+      "description": "Une plateforme full-stack de gestion éducative destinée aux étudiants et aux enseignants, intégrant la gestion des groupes, des cours, des quiz, la communication et la collaboration en temps réel."
+    },
+
+    "professional": {
+      "title": "Expériences professionnelles",
+      "description": "Des projets développés dans le cadre de mes expériences professionnelles, notamment des applications en production et des travaux protégés par des accords de confidentialité."
+    },
+
+    "instalab": {
+      "category": "Stage d’été",
+      "title": "Instalab",
+      "description": "Une plateforme interactive d’apprentissage de l’informatique proposant des travaux pratiques, un suivi des apprenants, des quiz et des outils de reporting destinés aux formateurs."
+    },
+
+    "confidential": {
+      "category": "Projet professionnel",
+      "title": "Projet confidentiel",
+      "description": "Contribution au développement d’une application web en production dans le cadre d’un stage en développement logiciel.",
+      "badge": "Protégé par un NDA",
+      "preview": "Détails du projet confidentiels",
+      "note": "Les détails et l’interface du projet ne peuvent pas être partagés publiquement en raison d’un accord de confidentialité.",
+      "available": "Détails disponibles sur demande"
+    },
+
+    "actions": {
+      "demo": "Voir la démo",
+      "live": "Voir le projet"
+    }
+  },
+  "Services": {
+    "eyebrow": "Services freelance",
+    "title": "Comment je peux contribuer à la création et à l'amélioration de votre produit.",
+    "description": "Je propose des services de développement frontend et Full-Stack aux entreprises, startups et équipes à la recherche de solutions web modernes et fiables.",
+    "items": {
+      "webApplications": {
+        "title": "Développement d'applications web",
+        "description": "Création d'applications web responsives, évolutives et maintenables, adaptées aux besoins de l'entreprise."
+      },
+      "frontend": {
+        "title": "Développement frontend",
+        "description": "Interfaces modernes développées avec Next.js, React, TypeScript, Tailwind CSS et shadcn/ui."
+      },
+      "saas": {
+        "title": "Développement SaaS",
+        "description": "Création de plateformes multi-tenant, de tableaux de bord, de workflows par rôle et de fonctionnalités de gestion."
+      },
+      "modernization": {
+        "title": "Modernisation d'interfaces",
+        "description": "Refonte et amélioration d'interfaces existantes, de systèmes de design, de la responsivité et de l'expérience utilisateur."
+      },
+      "integration": {
+        "title": "Intégration d'API",
+        "description": "Intégration d'API REST et GraphQL, d'authentification, de reporting, d'export de fichiers et de services tiers."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Vous avez un projet en tête ? Travaillons ensemble.",
+    "description": "Présentez-moi votre projet, votre application existante ou vos besoins d'amélioration d'interface. Je suis disponible pour des missions freelance et des collaborations à distance.",
+    "defaultEmailSubject": "Nouvelle demande de projet",
+    "emailNameLabel": "Nom",
+    "emailAddressLabel": "E-mail",
+    "details": {
+      "title": "Coordonnées",
+      "description": "Vous pouvez me contacter directement par e-mail ou via mes profils professionnels.",
+      "email": "E-mail",
+      "location": "Localisation",
+      "locationValue": "Tunisie — Disponible pour le travail à distance",
+      "social": "Profils professionnels"
+    },
+    "form": {
+      "title": "Envoyer un message",
+      "description": "Remplissez le formulaire et votre application de messagerie s'ouvrira avec le message préparé.",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Que souhaitez-vous développer ?",
+      "message": "Message",
+      "messagePlaceholder": "Présentez votre projet, vos objectifs et le délai souhaité.",
+      "messageDescription": "N'incluez pas de mots de passe, d'identifiants ou d'informations confidentielles.",
+      "submit": "Préparer l'e-mail",
+      "mailAppMessage": "Votre application de messagerie devrait maintenant s'ouvrir avec le message préparé."
+    }
+  },
+  "Footer": {
+    "role": "Ingénieure logiciel Full-Stack",
+    "description": "Je développe des applications web modernes, évolutives et centrées sur l'utilisateur pour les entreprises, startups et équipes en croissance.",
+    "goHome": "Aller à la section d'accueil",
+    "navigationLabel": "Navigation du pied de page",
+    "emailLabel": "M'envoyer un e-mail",
+    "rights": "Tous droits réservés.",
+    "builtWith": "Développé avec Next.js, TypeScript et shadcn/ui.",
+    "links": {
+      "about": "À propos",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  }
+}

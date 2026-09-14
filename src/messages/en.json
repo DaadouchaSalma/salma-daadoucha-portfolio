@@ -1,0 +1,227 @@
+{
+  "Theme": {
+    "toggle": "Change theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Metadata": {
+    "name": "Salma Daadoucha",
+    "title": "Salma Daadoucha | Full-Stack Software Engineer",
+    "description": "Portfolio of Salma Daadoucha, a Full-Stack Software Engineer specializing in modern web applications and SaaS platforms."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "menu": "Open navigation menu",
+    "description": "Navigate through the portfolio sections.",
+    "goHome": "Go to the home section",
+    "desktopNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation"
+  },
+  "Language": {
+    "change": "Change language"
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "name": "Salma Daadoucha",
+    "title": "Full-Stack Software Engineer",
+    "headline": "I design and build scalable digital products, from polished interfaces to complete SaaS platforms.",
+    "description": "Full-Stack Software Engineer specializing in Next.js, NestJS and modern product experiences. I turn ideas and business needs into reliable, maintainable and user-focused web applications.",
+    "availability": "Available for freelance projects",
+    "specialization": "Next.js and SaaS development",
+    "projectsButton": "Explore my work",
+    "contactButton": "Start a project",
+    "socialLinks": "Social links",
+    "emailLabel": "Send me an email",
+    "location": "Based in Tunisia · Available remotely",
+    "floatingLabel": "Core stack",
+    "panel": {
+      "eyebrow": "What I bring",
+      "title": "Product-focused engineering",
+      "fullStackTitle": "End-to-end development",
+      "fullStackDescription": "From modern frontend systems to APIs, databases and deployment workflows.",
+      "productTitle": "Thoughtful user experience",
+      "productDescription": "Interfaces designed for clarity, consistency, responsiveness and real business use.",
+      "stackTitle": "Technologies I work with",
+      "freelanceTitle": "Ready for your next project",
+      "freelanceDescription": "Available for frontend, full-stack, SaaS, UI modernization and API integration work."
+    }
+  },
+  "About": {
+    "eyebrow": "About me",
+    "title": "I build modern applications with real business value.",
+    "descriptionOne": "I am a Full-Stack Software Engineer based in Tunisia, specialized in building modern, scalable and user-focused web applications with Next.js, React, NestJS and PostgreSQL.",
+    "descriptionTwo": "Through academic projects and professional internships, I have worked on SaaS platforms, learning products and interface modernization. I am interested in freelance opportunities where I can build reliable products, improve existing applications and transform ideas into polished digital experiences.",
+    "highlights": {
+      "frontend": {
+        "title": "Modern frontend development",
+        "description": "Responsive and accessible interfaces using Next.js, React, TypeScript, Tailwind CSS and shadcn/ui."
+      },
+      "fullstack": {
+        "title": "Full-stack SaaS applications",
+        "description": "End-to-end development with NestJS, GraphQL, PostgreSQL, Docker and modern deployment workflows."
+      },
+      "location": {
+        "title": "Based in Tunisia",
+        "description": "Available for remote freelance projects and international collaboration."
+      }
+    }
+  },
+  "Skills": {
+    "eyebrow": "Technical skills",
+    "title": "Technologies I use to build modern products.",
+    "description": "I work across the frontend, backend, database and deployment layers to create complete and maintainable web applications.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend and APIs",
+      "database": "Database",
+      "devops": "Tools and DevOps"
+    }
+  },
+
+  "Projects": {
+    "eyebrow": "Selected work",
+    "title": "Projects I've built",
+    "description": "A selection of academic and professional projects spanning full-stack development, SaaS platforms, real-time applications, and AI-powered solutions.",
+
+    "featured": {
+      "label": "Featured project",
+      "period": "PFE · 2026"
+    },
+
+    "hrsmartly": {
+      "category": "Professional project",
+      "title": "HRSmartly",
+      "subtitle": "Intelligent HR Management Platform",
+      "description": "A multi-tenant SaaS platform designed to centralize and automate HR operations, combining recruitment workflows and analytics with AI-assisted CV analysis, candidate scoring, skills matching, and job offer generation."
+    },
+
+    "academic": {
+      "title": "Academic projects",
+      "description": "Full-stack applications developed throughout my academic journey, exploring different architectures, technologies, and real-world use cases."
+    },
+
+    "jobnest": {
+      "category": "Academic project",
+      "title": "JobNest",
+      "description": "A full-stack freelance marketplace connecting clients and freelancers through job discovery, applications, collaboration, real-time messaging, and feedback."
+    },
+
+    "unityhr": {
+      "category": "Academic project",
+      "title": "UnityHR",
+      "description": "A full-stack human resources management platform designed to centralize employee management, recruitment, leave, payroll, training, and certification workflows."
+    },
+
+    "edusmart": {
+      "category": "Academic project",
+      "title": "EduSmart",
+      "description": "A full-stack educational management platform for students, teachers, groups, courses, quizzes, communication, and real-time collaboration."
+    },
+
+    "professional": {
+      "title": "Professional work",
+      "description": "Projects developed during professional experiences, including production applications and work protected by confidentiality agreements."
+    },
+
+    "instalab": {
+      "category": "Summer internship",
+      "title": "Instalab",
+      "description": "An interactive IT learning platform offering practical labs, learner tracking, quizzes, and instructor-facing reporting tools."
+    },
+
+    "confidential": {
+      "category": "Professional project",
+      "title": "Confidential project",
+      "description": "Contributed to the development of a production web application as part of a software development internship.",
+      "badge": "NDA protected",
+      "preview": "Project details are confidential",
+      "note": "Project details and interface cannot be publicly shared due to a confidentiality agreement.",
+      "available": "Details available upon request"
+    },
+
+    "actions": {
+      "demo": "View demo",
+      "live": "Live project"
+    }
+  },
+  "Services": {
+    "eyebrow": "Freelance services",
+    "title": "How I can help build and improve your product.",
+    "description": "I provide frontend and full-stack development services for businesses, startups and teams that need reliable, modern web solutions.",
+    "items": {
+      "webApplications": {
+        "title": "Web application development",
+        "description": "Development of responsive, scalable and maintainable web applications tailored to business requirements."
+      },
+      "frontend": {
+        "title": "Frontend development",
+        "description": "Modern interfaces built with Next.js, React, TypeScript, Tailwind CSS and shadcn/ui."
+      },
+      "saas": {
+        "title": "SaaS development",
+        "description": "Development of multi-tenant platforms, dashboards, role-based workflows and business management features."
+      },
+      "modernization": {
+        "title": "UI modernization",
+        "description": "Redesign and improvement of existing interfaces, design systems, responsiveness and usability."
+      },
+      "integration": {
+        "title": "API integration",
+        "description": "Integration of REST and GraphQL APIs, authentication, reporting, file exports and third-party services."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Have a project in mind? Let’s work together.",
+    "description": "Tell me about your project, existing application or interface improvement needs. I am available for freelance and remote collaboration.",
+    "defaultEmailSubject": "New project inquiry",
+    "emailNameLabel": "Name",
+    "emailAddressLabel": "Email",
+    "details": {
+      "title": "Contact details",
+      "description": "You can contact me directly by email or through my professional profiles.",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "Tunisia — Available for remote work",
+      "social": "Professional profiles"
+    },
+    "form": {
+      "title": "Send a message",
+      "description": "Complete the form and your email application will open with the message prepared.",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What would you like to build?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project, goals and expected timeline.",
+      "messageDescription": "Please do not include passwords, credentials or confidential information.",
+      "submit": "Prepare email",
+      "mailAppMessage": "Your email application should now open with the message prepared."
+    }
+  },
+  "Footer": {
+    "role": "Full-Stack Software Engineer",
+    "description": "Building modern, scalable and user-focused web applications for businesses, startups and growing teams.",
+    "goHome": "Go to the home section",
+    "navigationLabel": "Footer navigation",
+    "emailLabel": "Send me an email",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js, TypeScript and shadcn/ui.",
+    "links": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  }
+}
