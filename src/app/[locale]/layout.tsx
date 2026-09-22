@@ -14,6 +14,7 @@ import "../globals.css";
 import {ThemeProvider} from "@/components/providers/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/sections/Footer";
+import { CursorSpotlight } from "@/components/Cursorspotlight";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -97,6 +98,7 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
+            <CursorSpotlight />
             <Navbar />
             {children}
             <Footer />

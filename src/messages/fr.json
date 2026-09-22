@@ -57,8 +57,7 @@
     "eyebrow": "À propos de moi",
     "title": "Je développe des applications modernes qui apportent une réelle valeur aux entreprises.",
     "descriptionOne": "Je suis ingénieure logiciel Full-Stack basée en Tunisie, spécialisée dans le développement d'applications web modernes, évolutives et centrées sur l'utilisateur avec Next.js, React, NestJS et PostgreSQL.",
-    "descriptionTwo": "À travers mes projets académiques et mes stages professionnels, j'ai travaillé sur des plateformes SaaS, des solutions éducatives et la modernisation d'interfaces. Je recherche des opportunités freelance pour créer des produits fiables, améliorer des applications existantes et transformer des idées en expériences numériques soignées.",
-    "highlights": {
+    "descriptionTwo": "À travers mes projets académiques et mes stages professionnels, j’ai travaillé sur des plateformes SaaS, des produits éducatifs et la modernisation d’interfaces. Je suis ouverte à de nouvelles opportunités où je pourrai contribuer à des produits porteurs de sens, améliorer des applications existantes et transformer des idées en expériences numériques abouties.",    "highlights": {
       "frontend": {
         "title": "Développement frontend moderne",
         "description": "Interfaces responsives et accessibles avec Next.js, React, TypeScript, Tailwind CSS et shadcn/ui."

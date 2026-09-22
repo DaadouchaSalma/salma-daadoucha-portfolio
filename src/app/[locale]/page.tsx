@@ -1,8 +1,8 @@
 import { setRequestLocale } from "next-intl/server";
 
-import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/projects/Projects";
+import Hero from "@/components/sections/hero/Hero";
 
 type HomePageProps = {
   params: Promise<{
