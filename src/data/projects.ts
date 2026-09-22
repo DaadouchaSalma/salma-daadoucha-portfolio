@@ -1,56 +1,3 @@
-// export type Project = {
-//   id: "hrSmartly" | "instalab" | "eduSmart";
-//   image: string;
-//   technologies: string[];
-//   liveUrl?: string;
-//   githubUrl?: string;
-//   featured?: boolean;
-// };
-
-// export const projects: Project[] = [
-//   {
-//     id: "hrSmartly",
-//     image: "/projects/hr-smartly.webp",
-//     technologies: [
-//       "Next.js",
-//       "TypeScript",
-//       "NestJS",
-//       "GraphQL",
-//       "PostgreSQL",
-//       "Docker",
-//       "SaaS",
-//     ],
-//     liveUrl: "https://persistatechnology.hrsmartly.com/en",
-//     featured: true,
-//   },
-//   {
-//     id: "instalab",
-//     image: "/projects/instalab.webp",
-//     technologies: [
-//       "React",
-//       "TypeScript",
-//       "Tailwind CSS",
-//       "shadcn/ui",
-//       "PDF Export",
-//       "Excel Export",
-//     ],
-//     liveUrl: "https://instalab.io/",
-//   },
-//   {
-//     id: "eduSmart",
-//     image: "/projects/edusmart.webp",
-//     technologies: [
-//       "Full-Stack",
-//       "PostgreSQL",
-//       "Docker",
-//       "Kubernetes",
-//       "Git",
-//       "Teamwork",
-//     ],
-//     githubUrl: "https://github.com/sana-sboui/eduSmart",
-//   },
-// ];
-
 export type ProjectCategory = "academic" | "professional";
 
 export type Project = {
@@ -58,6 +5,8 @@ export type Project = {
   category: ProjectCategory;
   featured?: boolean;
   confidential?: boolean;
+  image?: string;
+  video?: string;
   technologies: string[];
   links?: {
     demo?: string;
@@ -70,6 +19,7 @@ export const featuredProject: Project = {
   id: "hrsmartly",
   category: "professional",
   featured: true,
+  image: "/projects/hrsmartly_preview.png",
   technologies: [
     "NestJS",
     "Next.js",
@@ -84,8 +34,7 @@ export const featuredProject: Project = {
     "GitHub Actions",
   ],
   links: {
-    demo: "#",
-    live: "#",
+    live: "https://persistatechnology.hrsmartly.com/en",
   },
 };
 
@@ -93,24 +42,28 @@ export const academicProjects: Project[] = [
   {
     id: "jobnest",
     category: "academic",
+    image: "/projects/jobnest_preview.png",
+    video: "/projects/jobnest_demo.mp4",
     technologies: ["React", "GraphQL", "NestJS"],
     links: {
-      demo: "#",
-      github: "#",
+      github: "https://github.com/DaadouchaSalma/Plateforme_Freelance.git",
     },
   },
   {
     id: "unityhr",
     category: "academic",
+    image: "/projects/unityhr_preview.png",
+    video: "/projects/unityhr_demo.mp4",
     technologies: ["Java", "Spring Boot", "MySQL"],
     links: {
-      demo: "#",
-      github: "#",
+      github: "https://github.com/DaadouchaSalma/RHSystem.git",
     },
   },
   {
     id: "edusmart",
     category: "academic",
+    image: "/projects/edusmart_preview.png",
+    video: "/projects/edusmart_demo.mp4",
     technologies: [
       "Python",
       "Django",
@@ -123,25 +76,81 @@ export const academicProjects: Project[] = [
       "Kubernetes",
     ],
     links: {
-      demo: "#",
-      github: "#",
+
+      github: "https://github.com/sana-sboui/eduSmart.git",
     },
   },
+  {
+      id: "smartcare",
+      category: "academic",
+      image: "/projects/smartcare_preview.png",
+      video: "/projects/smartcare_demo.mp4",
+      technologies: [
+        ".NET",
+        "Angular",
+        "Stripe API",
+        "Gemini API",
+      ],
+      links: {
+
+        github: "https://github.com/DaadouchaSalma/HMS.git",
+      },
+    },
 ];
 
 export const professionalProjects: Project[] = [
   {
-    id: "instalab",
+    id: "hrsmartly",
     category: "professional",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    featured: true,
+    image: "/projects/hrsmartly_preview.png",
+    video: "/projects/hrsmartly_demo.mp4",
+    technologies: [
+      "NestJS",
+      "Next.js",
+      "React",
+      "FastAPI",
+      "Python",
+      "LangGraph",
+      "TypeScript",
+      "Tailwind CSS",
+      "Hugging Face",
+      "GraphQL",
+      "GitHub Actions",
+    ],
     links: {
-      live: "#",
+
+      live: "https://persistatechnology.hrsmartly.com/en",
     },
   },
   {
-    id: "confidential",
+    id: "instalab",
+    category: "professional",
+    image: "/projects/instalab_preview.png",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Next.js",
+      "GraphQL",
+      "NestJS",
+      "Git",
+      "Github",
+    ],
+    links: {
+      live: "https://instalab.io",
+    },
+  },
+  {
+    id: "deepshift",
     category: "professional",
     confidential: true,
-    technologies: [],
+    technologies: ["React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Next.js"],
+    links: {},
   },
 ];

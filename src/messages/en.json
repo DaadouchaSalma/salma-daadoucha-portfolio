@@ -95,10 +95,11 @@
     },
 
     "hrsmartly": {
-      "category": "Professional project",
+      "category": "HR Management · SaaS",
       "title": "HRSmartly",
       "subtitle": "Intelligent HR Management Platform",
-      "description": "A multi-tenant SaaS platform designed to centralize and automate HR operations, combining recruitment workflows and analytics with AI-assisted CV analysis, candidate scoring, skills matching, and job offer generation."
+      "description": "A multi-tenant SaaS platform designed to centralize and automate HR operations, combining recruitment workflows and analytics with AI-assisted CV analysis, candidate scoring, skills matching, and job offer generation.",
+      "imageAlt": "HRSmartly HR management"
     },
 
     "academic": {
@@ -107,21 +108,24 @@
     },
 
     "jobnest": {
-      "category": "Academic project",
+      "category": "Freelance Marketplace",
       "title": "JobNest",
-      "description": "A full-stack freelance marketplace connecting clients and freelancers through job discovery, applications, collaboration, real-time messaging, and feedback."
+      "description": "A full-stack freelance marketplace connecting clients and freelancers through job discovery, applications, collaboration, real-time messaging, and feedback.",
+      "imageAlt": "JobNest freelance marketplace interface"
     },
 
     "unityhr": {
-      "category": "Academic project",
+      "category": "HR Management Platform",
       "title": "UnityHR",
-      "description": "A full-stack human resources management platform designed to centralize employee management, recruitment, leave, payroll, training, and certification workflows."
+      "description": "A full-stack human resources management platform designed to centralize employee management, recruitment, leave, payroll, training, and certification workflows.",
+      "imageAlt": "UnityHR employee and human resources management dashboard"
     },
 
     "edusmart": {
-      "category": "Academic project",
+      "category": "Education Platform",
       "title": "EduSmart",
-      "description": "A full-stack educational management platform for students, teachers, groups, courses, quizzes, communication, and real-time collaboration."
+      "description": "A full-stack educational management platform for students, teachers, groups, courses, quizzes, communication, and real-time collaboration.",
+      "imageAlt": "EduSmart educational management platform interface"
     },
 
     "professional": {
@@ -130,24 +134,38 @@
     },
 
     "instalab": {
-      "category": "Summer internship",
+      "category": "IT Learning Platform",
       "title": "Instalab",
-      "description": "An interactive IT learning platform offering practical labs, learner tracking, quizzes, and instructor-facing reporting tools."
+      "description": "An interactive IT learning platform offering practical labs, learner tracking, quizzes, and instructor-facing reporting tools.",
+      "imageAlt": "Instalab interactive IT learning platform interface"
     },
 
-    "confidential": {
-      "category": "Professional project",
-      "title": "Confidential project",
-      "description": "Contributed to the development of a production web application as part of a software development internship.",
-      "badge": "NDA protected",
-      "preview": "Project details are confidential",
-      "note": "Project details and interface cannot be publicly shared due to a confidentiality agreement.",
-      "available": "Details available upon request"
-    },
-
+    "deepshift": {
+        "category": "Medical Platform",
+        "title": "WishBorn — Medical Platform",
+        "description": "Developed responsive frontend interfaces for a medical platform using Next.js, translating design specifications into reusable components. Collaborated with the product team to implement UI requirements and improve usability and interface consistency.",
+        "imageAlt": "WishBorn medical platform interface"
+      },
+      "smartcare": {
+        "category": "Hospital Management",
+        "title": "SmartCare",
+        "description": "A multi-module hospital management system covering patient records, appointments, pharmacy inventory, real-time internal messaging, online payments with Stripe, and an integrated AI chatbot.",
+        "imageAlt": "SmartCare hospital management system dashboard"
+      },
+      "confidential": {
+        "available": "Project details are confidential due to an NDA.",
+        "badge": "Confidential",
+          "note": "Project details are confidential due to an NDA.",
+          "preview": "Project preview unavailable due to confidentiality."
+      },
     "actions": {
       "demo": "View demo",
       "live": "Live project"
+    },
+    "demo": {
+      "description": "Watch a short walkthrough of the project.",
+      "technologies": "Technologies",
+      "videoUnsupported": "Your browser does not support video playback."
     }
   },
   "Services": {

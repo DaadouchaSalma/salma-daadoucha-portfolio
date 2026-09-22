@@ -13,22 +13,22 @@ const navigationItems = [
     key: "about",
     href: "#about",
   },
-  {
-    key: "skills",
-    href: "#skills",
-  },
+  // {
+  //   key: "skills",
+  //   href: "#skills",
+  // },
   {
     key: "projects",
     href: "#projects",
   },
-  {
-    key: "services",
-    href: "#services",
-  },
-  {
-    key: "contact",
-    href: "#contact",
-  },
+  // {
+  //   key: "services",
+  //   href: "#services",
+  // },
+  // {
+  //   key: "contact",
+  //   href: "#contact",
+  // },
 ] as const;
 
 export default function Navbar() {

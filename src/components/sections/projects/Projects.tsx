@@ -22,10 +22,7 @@ export default function Projects() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionIntro />
 
-        <div className="mt-12">
-          <FeaturedProject project={featuredProject} />
-        </div>
-
+        <div className="mt-16 space-y-24">
         <ProjectGroup
           title={t("academic.title")}
           description={t("academic.description")}
@@ -36,7 +33,8 @@ export default function Projects() {
           title={t("professional.title")}
           description={t("professional.description")}
           projects={professionalProjects}
-        />
+          />
+        </div>
       </div>
     </section>
   );
@@ -58,9 +56,9 @@ function SectionIntro() {
         {t("title")}
       </h2>
 
-      <p className="mt-5 text-pretty leading-8 text-muted-foreground">
+      {/*<p className="mt-5 text-pretty leading-8 text-muted-foreground">
         {t("description")}
-      </p>
+      </p>*/}
     </div>
   );
 }
@@ -75,10 +73,10 @@ function ProjectGroup({
   projects: typeof academicProjects;
 }) {
   return (
-    <div className="mt-24">
+    <div>
       <ProjectSectionHeader title={title} description={description} />
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-2">
+      <div className="mt-8 grid justify-center gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

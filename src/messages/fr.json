@@ -96,10 +96,11 @@
     },
 
     "hrsmartly": {
-      "category": "Projet professionnel",
+      "category": "Gestion des ressources humaines · SaaS",
       "title": "HRSmartly",
       "subtitle": "Plateforme intelligente de gestion des ressources humaines",
-      "description": "Une plateforme SaaS multi-tenant conçue pour centraliser et automatiser les opérations RH, en combinant des workflows de recrutement et des outils d’analyse avec l’IA pour l’analyse des CV, l’évaluation des candidats, la correspondance des compétences et la génération d’offres d’emploi."
+      "description": "Une plateforme SaaS multi-tenant conçue pour centraliser et automatiser les opérations RH, en combinant des workflows de recrutement et des outils d’analyse avec l’IA pour l’analyse des CV, l’évaluation des candidats, la correspondance des compétences et la génération d’offres d’emploi.",
+      "imageAlt": "Plateforme de gestion des ressources humaines HRSmartly"
     },
 
     "academic": {
@@ -108,21 +109,24 @@
     },
 
     "jobnest": {
-      "category": "Projet académique",
+      "category": "Marketplace de freelances",
       "title": "JobNest",
-      "description": "Une marketplace freelance full-stack mettant en relation clients et freelances à travers la recherche de missions, les candidatures, la collaboration, la messagerie en temps réel et les évaluations."
+      "description": "Une marketplace freelance full-stack mettant en relation clients et freelances à travers la recherche de missions, les candidatures, la collaboration, la messagerie en temps réel et les évaluations.",
+      "imageAlt": "Interface de la marketplace freelance JobNest"
     },
 
     "unityhr": {
-      "category": "Projet académique",
+      "category": "Plateforme de gestion des ressources humaines",
       "title": "UnityHR",
-      "description": "Une plateforme full-stack de gestion des ressources humaines conçue pour centraliser la gestion des employés, le recrutement, les congés, la paie, la formation et les certifications."
+      "description": "Une plateforme full-stack de gestion des ressources humaines conçue pour centraliser la gestion des employés, le recrutement, les congés, la paie, la formation et les certifications.",
+      "imageAlt": "Tableau de bord de gestion des employés et des ressources humaines UnityHR"
     },
 
     "edusmart": {
-      "category": "Projet académique",
+      "category": "Plateforme éducative",
       "title": "EduSmart",
-      "description": "Une plateforme full-stack de gestion éducative destinée aux étudiants et aux enseignants, intégrant la gestion des groupes, des cours, des quiz, la communication et la collaboration en temps réel."
+      "description": "Une plateforme full-stack de gestion éducative destinée aux étudiants et aux enseignants, intégrant la gestion des groupes, des cours, des quiz, la communication et la collaboration en temps réel.",
+       "imageAlt": "Interface de la plateforme de gestion éducative EduSmart"
     },
 
     "professional": {
@@ -131,24 +135,39 @@
     },
 
     "instalab": {
-      "category": "Stage d’été",
+      "category": "Plateforme d’apprentissage informatique",
       "title": "Instalab",
-      "description": "Une plateforme interactive d’apprentissage de l’informatique proposant des travaux pratiques, un suivi des apprenants, des quiz et des outils de reporting destinés aux formateurs."
+      "description": "Une plateforme interactive d’apprentissage de l’informatique proposant des travaux pratiques, un suivi des apprenants, des quiz et des outils de reporting destinés aux formateurs.",
+      "imageAlt": "Interface de la plateforme interactive d’apprentissage informatique Instalab"
     },
 
-    "confidential": {
-      "category": "Projet professionnel",
-      "title": "Projet confidentiel",
-      "description": "Contribution au développement d’une application web en production dans le cadre d’un stage en développement logiciel.",
-      "badge": "Protégé par un NDA",
-      "preview": "Détails du projet confidentiels",
-      "note": "Les détails et l’interface du projet ne peuvent pas être partagés publiquement en raison d’un accord de confidentialité.",
-      "available": "Détails disponibles sur demande"
-    },
+    "deepshift": {
+        "category": "Plateforme médicale",
+        "title": "WishBorn — Plateforme médicale",
+        "description": "Développé des interfaces frontend responsives en Next.js pour une plateforme médicale, en traduisant les spécifications de design en composants réutilisables. Collaboré avec l’équipe produit pour implémenter les exigences UI et améliorer l’ergonomie et la cohérence de l’interface.",
+        "imageAlt": "Interface de la plateforme médicale WishBorn"
+      },
+      "smartcare": {
+        "category": "Gestion hospitalière",
+        "title": "SmartCare",
+        "description": "Un système de gestion hospitalière multi-modules couvrant les dossiers patients, les rendez-vous, la gestion des stocks de la pharmacie, la messagerie interne en temps réel, les paiements en ligne avec Stripe et un chatbot IA intégré.",
+        "imageAlt": "Tableau de bord du système de gestion hospitalière SmartCare"
+      },
+      "confidential": {
+        "available": "Les détails du projet sont confidentiels en raison d’un accord de confidentialité (NDA).",
+        "badge": "Confidentiel",
+          "note": "Les détails du projet sont confidentiels en raison d’un accord de confidentialité (NDA).",
+          "preview": "Aperçu du projet indisponible en raison de la confidentialité."
+      },
 
     "actions": {
       "demo": "Voir la démo",
       "live": "Voir le projet"
+    },
+    "demo": {
+      "description": "Regardez une courte présentation du projet.",
+      "technologies": "Technologies",
+      "videoUnsupported": "Votre navigateur ne prend pas en charge la lecture des vidéos."
     }
   },
   "Services": {
