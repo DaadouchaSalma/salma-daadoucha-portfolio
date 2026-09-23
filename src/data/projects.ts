@@ -52,7 +52,7 @@ export const academicProjects: Project[] = [
   {
     id: "unityhr",
     category: "academic",
-    image: "/projects/unityhr_preview.png",
+    image: "/projects/unityHR_preview.png",
     video: "/projects/unityhr_demo.mp4",
     technologies: ["Java", "Spring Boot", "MySQL"],
     links: {
