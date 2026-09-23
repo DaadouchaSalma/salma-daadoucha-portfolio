@@ -6,10 +6,10 @@
     "system": "Système"
   },
   "Metadata": {
-    "name": "Salma Daadoucha",
-    "title": "Salma Daadoucha | Ingénieure logiciel Full-Stack",
-    "description": "Portfolio de Salma Daadoucha, ingénieure logiciel Full-Stack spécialisée dans les applications web modernes et les plateformes SaaS."
-  },
+      "name": "Salma Daadoucha",
+      "title": "Salma Daadoucha | Ingénieure en logiciel",
+      "description": "Ingénieure en logiciel spécialisée dans la création d'applications web fiables, évolutives et soignées avec Next.js, React, TypeScript et NestJS."
+    },
   "Navigation": {
     "home": "Accueil",
     "about": "À propos",

@@ -7,7 +7,7 @@ import {
   setRequestLocale,
 } from "next-intl/server";
 import { notFound } from "next/navigation";
-
+import { JsonLd } from "@/components/seo/JsonLd";
 import { routing } from "@/i18n/routing";
 
 import "../globals.css";
@@ -15,7 +15,8 @@ import {ThemeProvider} from "@/components/providers/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/sections/Footer";
 import { CursorSpotlight } from "@/components/Cursorspotlight";
-
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,19 +52,75 @@ export async function generateMetadata({
     namespace: "Metadata",
   });
 
+  const siteUrl = "https://salmadaadoucha.me";
+
   return {
-    metadataBase: new URL("https://your-domain.com"),
+    metadataBase: new URL(siteUrl),
+
     title: {
       default: t("title"),
       template: `%s | ${t("name")}`,
     },
+
     description: t("description"),
+
+    keywords: [
+      "Salma Daadoucha",
+      "Software Engineer",
+      "Full Stack Developer",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "NestJS",
+      "Web Developer",
+      "Portfolio",
+    ],
+
+    authors: [
+      {
+        name: "Salma Daadoucha",
+        url: siteUrl,
+      },
+    ],
+
+    creator: "Salma Daadoucha",
+    publisher: "Salma Daadoucha",
+
     alternates: {
+      canonical: `/${locale}`,
       languages: {
         en: "/en",
         fr: "/fr",
         ar: "/ar",
       },
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
+
+    openGraph: {
+      type: "website",
+      url: `/${locale}`,
+      title: t("title"),
+      description: t("description"),
+      siteName: "Salma Daadoucha",
+      locale,
+      images: [
+            {
+              url: "/og-image.png",
+              width: 1200,
+              height: 630,
+              alt: "Salma Daadoucha — Software Engineer",
+            },
+          ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
     },
   };
 }
@@ -82,7 +139,6 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const direction = locale === "ar" ? "rtl" : "ltr";
-
   return (
     <html
       lang={locale}
@@ -91,6 +147,9 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="min-h-screen bg-background overflow-x-hidden text-foreground antialiased">
+        <Analytics />
+        <SpeedInsights />
+        <JsonLd />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
