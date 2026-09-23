@@ -1,5 +1,5 @@
 "use client";
-import { ArrowUpRight, ExternalLink, LockKeyhole, Play } from "lucide-react";
+import { ExternalLink, LockKeyhole, Play } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
