@@ -3,6 +3,7 @@
 import { Menu } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import Image from "next/image";
 
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 import ThemeToggle from "@/components/layout/ThemeToggle";
@@ -68,8 +69,17 @@ export default function MobileNav() {
         className="flex w-[min(85vw,22rem)] flex-col"
       >
         <SheetHeader>
-          <SheetTitle>Salma Daadoucha</SheetTitle>
+          <SheetTitle className="flex items-center gap-2">
+                      <Image
+                        src="/images/logo.png"
+                        alt=""
+                        width={36}
+                        height={36}
+                        className="size-9 rounded-lg"
+                      />
 
+                      <span>Salma Daadoucha</span>
+                    </SheetTitle>
           <SheetDescription>
             {t("description")}
           </SheetDescription>

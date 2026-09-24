@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 import MobileNav from "@/components/layout/MobileNav";
@@ -38,18 +39,23 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-xl">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <a
-          href="#home"
-          aria-label={t("goHome")}
-          className="group inline-flex items-center gap-2 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-        >
-          <span className="flex size-9 items-center justify-center rounded-lg bg-primary font-bold text-primary-foreground">
-            SD
-          </span>
+                  href="#home"
+                  aria-label={t("goHome")}
+                  className="group inline-flex items-center gap-2 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                  <Image
+                    src="/images/logo.png"
+                    alt=""
+                    width={36}
+                    height={36}
+                    priority
+                    className="size-9 rounded-lg"
+                  />
 
-          <span className="hidden font-semibold tracking-tight sm:inline">
-            Salma Daadoucha
-          </span>
-        </a>
+                  <span className="hidden font-semibold tracking-tight sm:inline">
+                    Salma Daadoucha
+                  </span>
+                </a>
 
         <nav
           aria-label={t("desktopNavigation")}
