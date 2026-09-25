@@ -73,16 +73,27 @@
     }
   },
   "Skills": {
-    "eyebrow": "Compétences techniques",
-    "title": "Les technologies que j'utilise pour créer des produits modernes.",
-    "description": "J'interviens sur le frontend, le backend, les bases de données et le déploiement afin de développer des applications web complètes et maintenables.",
-    "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend et API",
-      "database": "Base de données",
-      "devops": "Outils et DevOps"
-    }
-  },
+      "eyebrow": "Compétences & Technologies",
+      "title": "Technologies que j'utilise pour créer des applications modernes",
+      "description": "Une sélection des technologies et outils que j'utilise en frontend, backend, données, IA et infrastructure.",
+      "categories": {
+        "frontend": {
+          "title": "Frontend"
+        },
+        "backend": {
+          "title": "Backend"
+        },
+        "data": {
+          "title": "Données & Stockage"
+        },
+        "ai": {
+          "title": "IA / ML"
+        },
+        "devops": {
+          "title": "DevOps & Outils"
+        }
+      }
+    },
 
   "Projects": {
     "eyebrow": "Projets sélectionnés",
