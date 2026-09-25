@@ -73,16 +73,27 @@
     }
   },
   "Skills": {
-    "eyebrow": "Technical skills",
-    "title": "Technologies I use to build modern products.",
-    "description": "I work across the frontend, backend, database and deployment layers to create complete and maintainable web applications.",
-    "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend and APIs",
-      "database": "Database",
-      "devops": "Tools and DevOps"
-    }
-  },
+      "eyebrow": "Skills & Technologies",
+      "title": "Technologies I use to build modern applications",
+      "description": "A selection of technologies and tools I use across frontend, backend, data, AI, and infrastructure.",
+      "categories": {
+        "frontend": {
+          "title": "Frontend"
+        },
+        "backend": {
+          "title": "Backend"
+        },
+        "data": {
+          "title": "Data & Storage"
+        },
+        "ai": {
+          "title": "AI / ML"
+        },
+        "devops": {
+          "title": "DevOps & Tools"
+        }
+      }
+    },
 
   "Projects": {
     "eyebrow": "Selected work",

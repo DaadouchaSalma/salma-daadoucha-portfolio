@@ -14,10 +14,10 @@ const navigationItems = [
     key: "about",
     href: "#about",
   },
-  // {
-  //   key: "skills",
-  //   href: "#skills",
-  // },
+  {
+    key: "skills",
+    href: "#skills",
+  },
   {
     key: "projects",
     href: "#projects",
