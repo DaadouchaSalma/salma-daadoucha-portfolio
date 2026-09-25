@@ -1,6 +1,7 @@
 import { Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import Image from "next/image";
 
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -20,9 +21,14 @@ export default function Footer() {
               className="inline-flex items-center gap-3 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label={t("goHome")}
             >
-              <span className="flex size-10 items-center justify-center rounded-xl bg-primary font-bold text-primary-foreground">
-                SD
-              </span>
+              <Image
+                              src="/images/logo.png"
+                              alt="Salma Daadoucha Logo"
+                              width={36}
+                              height={36}
+                              priority
+                              className="size-9 rounded-lg"
+                            />
 
               <div>
                 <p className="font-semibold">Salma Daadoucha</p>
