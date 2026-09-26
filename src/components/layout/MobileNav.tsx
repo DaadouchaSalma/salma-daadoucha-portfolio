@@ -38,10 +38,10 @@ const navigationItems = [
   //   key: "services",
   //   href: "#services",
   // },
-  // {
-  //   key: "contact",
-  //   href: "#contact",
-  // },
+  {
+    key: "contact",
+    href: "#contact",
+  },
 ] as const;
 
 export default function MobileNav() {
