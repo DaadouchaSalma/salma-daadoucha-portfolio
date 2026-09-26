@@ -4,6 +4,7 @@ import About from "@/components/sections/About";
 import Projects from "@/components/sections/projects/Projects";
 import Hero from "@/components/sections/hero/Hero";
 import Skills from "@/components/sections/skills/Skills";
+import Contact from "@/components/sections/contact/Contact";
 
 type HomePageProps = {
   params: Promise<{
@@ -22,6 +23,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <About />
       <Skills />
       <Projects />
+      <Contact/>
     </main>
   );
 }

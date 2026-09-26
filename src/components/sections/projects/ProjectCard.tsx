@@ -50,7 +50,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <>
-    <Card className="group flex h-full flex-col overflow-hidden p-0 transition-colors hover:border-primary/30">
+    <Card className="group flex h-full flex-col overflow-hidden p-0 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
       <ProjectPreview confidential={isConfidential} image={project.image} projectId={project.id}/>
 
       <CardHeader className="px-6 pb-2 pt-5">
@@ -63,7 +63,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                          </p>
                        </div>
 
-            <h4 className="mt-0.5 text-xl font-semibold tracking-tight">
+            <h4 className="mt-0.5 text-xl font-semibold tracking-tight group-hover:text-primary">
               {t(`${project.id}.title`)}
             </h4>
           </div>
@@ -108,7 +108,7 @@ function ProjectPreview({ confidential = false, image, projectId }: { confidenti
     return (
       <div className="relative flex min-h-[220px] items-center justify-center overflow-hidden bg-muted/40">
         <div className="flex flex-col items-center text-center">
-          <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+          <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-transform duration-300 group-hover:scale-110">
             <LockKeyhole aria-hidden="true" className="size-6" />
           </div>
 
@@ -165,7 +165,7 @@ function TechnologyList({ technologies }: { technologies: string[] }) {
   return (
     <div className="mt-4 flex flex-wrap gap-1.5">
       {visible.map((technology) => (
-        <Badge key={technology} variant="secondary" className="px-2 py-0.5 text-xs">
+        <Badge key={technology} variant="secondary" className="px-2 py-0.5 text-xs transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary/10">
           {technology}
         </Badge>
       ))}
@@ -198,10 +198,8 @@ function ProjectActions({ project, onDemoClick, }: { project: Project; onDemoCli
             type="button"
             onClick={onDemoClick}
             className={cn(
-              buttonVariants({
-                variant: "outline",
-                size: "sm",
-              }),
+              buttonVariants({ variant: "outline", size: "sm" }),
+              "transition-all duration-200 hover:border-primary/50 hover:text-primary cursor-pointer"
             )}
           >
             {t("actions.demo")}
@@ -215,10 +213,8 @@ function ProjectActions({ project, onDemoClick, }: { project: Project; onDemoCli
             target="_blank"
             rel="noopener noreferrer"
             className={cn(
-              buttonVariants({
-                variant: "outline",
-                size: "sm",
-              }),
+              buttonVariants({ variant: "outline", size: "sm" }),
+              "transition-all duration-200 hover:border-primary/50 hover:text-primary"
             )}
           >
             {t("actions.live")}

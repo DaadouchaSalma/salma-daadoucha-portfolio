@@ -207,34 +207,30 @@
     }
   },
   "Contact": {
-    "eyebrow": "Contact",
-    "title": "Have a project in mind? Let’s work together.",
-    "description": "Tell me about your project, existing application or interface improvement needs. I am available for freelance and remote collaboration.",
-    "defaultEmailSubject": "New project inquiry",
-    "emailNameLabel": "Name",
-    "emailAddressLabel": "Email",
-    "details": {
-      "title": "Contact details",
-      "description": "You can contact me directly by email or through my professional profiles.",
-      "email": "Email",
-      "location": "Location",
-      "locationValue": "Tunisia — Available for remote work",
-      "social": "Professional profiles"
-    },
+    "eyebrow": "GET IN TOUCH",
+    "title": "Let's work together",
+    "description": "Have a project in mind or want to discuss an opportunity? I'd be happy to hear from you.",
+    "connectTitle": "Let's connect",
+    "connectDescription": "Whether you have a project, an opportunity, or simply want to say hello, feel free to reach out.",
+    "emailLabel": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "locationLabel": "Location",
+    "location": "Tunisia",
+    "formTitle": "Send a message",
     "form": {
-      "title": "Send a message",
-      "description": "Complete the form and your email application will open with the message prepared.",
       "name": "Name",
       "namePlaceholder": "Your name",
       "email": "Email",
       "emailPlaceholder": "you@example.com",
       "subject": "Subject",
-      "subjectPlaceholder": "What would you like to build?",
+      "subjectPlaceholder": "How can I help?",
       "message": "Message",
-      "messagePlaceholder": "Tell me about your project, goals and expected timeline.",
-      "messageDescription": "Please do not include passwords, credentials or confidential information.",
-      "submit": "Prepare email",
-      "mailAppMessage": "Your email application should now open with the message prepared."
+      "messagePlaceholder": "Tell me a little about your project...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully.",
+      "error": "Something went wrong. Please try again."
     }
   },
   "Footer": {

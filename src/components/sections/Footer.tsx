@@ -69,12 +69,12 @@ export default function Footer() {
                 {t("links.projects")}
               </a>
 
-              <a
+              {/*<a
                 href="#services"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
                 {t("links.services")}
-              </a>
+              </a>*/}
 
               <a
                 href="#contact"

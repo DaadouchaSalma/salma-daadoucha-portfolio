@@ -208,34 +208,30 @@
     }
   },
   "Contact": {
-    "eyebrow": "Contact",
-    "title": "Vous avez un projet en tête ? Travaillons ensemble.",
-    "description": "Présentez-moi votre projet, votre application existante ou vos besoins d'amélioration d'interface. Je suis disponible pour des missions freelance et des collaborations à distance.",
-    "defaultEmailSubject": "Nouvelle demande de projet",
-    "emailNameLabel": "Nom",
-    "emailAddressLabel": "E-mail",
-    "details": {
-      "title": "Coordonnées",
-      "description": "Vous pouvez me contacter directement par e-mail ou via mes profils professionnels.",
-      "email": "E-mail",
-      "location": "Localisation",
-      "locationValue": "Tunisie — Disponible pour le travail à distance",
-      "social": "Profils professionnels"
-    },
+    "eyebrow": "CONTACTEZ-MOI",
+    "title": "Travaillons ensemble",
+    "description": "Vous avez un projet en tête ou souhaitez discuter d'une opportunité ? Je serais ravi d'échanger avec vous.",
+    "connectTitle": "Restons en contact",
+    "connectDescription": "Que vous ayez un projet, une opportunité ou simplement envie de dire bonjour, n'hésitez pas à me contacter.",
+    "emailLabel": "E-mail",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "locationLabel": "Localisation",
+    "location": "Tunisie",
+    "formTitle": "Envoyer un message",
     "form": {
-      "title": "Envoyer un message",
-      "description": "Remplissez le formulaire et votre application de messagerie s'ouvrira avec le message préparé.",
       "name": "Nom",
       "namePlaceholder": "Votre nom",
       "email": "E-mail",
       "emailPlaceholder": "vous@exemple.com",
       "subject": "Sujet",
-      "subjectPlaceholder": "Que souhaitez-vous développer ?",
+      "subjectPlaceholder": "Comment puis-je vous aider ?",
       "message": "Message",
-      "messagePlaceholder": "Présentez votre projet, vos objectifs et le délai souhaité.",
-      "messageDescription": "N'incluez pas de mots de passe, d'identifiants ou d'informations confidentielles.",
-      "submit": "Préparer l'e-mail",
-      "mailAppMessage": "Votre application de messagerie devrait maintenant s'ouvrir avec le message préparé."
+      "messagePlaceholder": "Parlez-moi un peu de votre projet...",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Votre message a été envoyé avec succès.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
     }
   },
   "Footer": {
