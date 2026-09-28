@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Salma Daadoucha — Portfolio
 
-## Getting Started
+A modern personal developer portfolio showcasing my projects, technical skills, and experience, with a focus on clean design, accessibility, and a polished user experience.
 
-First, run the development server:
+##  Features
+
+- Responsive design for desktop, tablet, and mobile
+- Light and dark theme support
+- Internationalization (i18n)
+- Smooth reveal animations
+- Skills and technologies showcase
+- Projects showcase
+- Contact section with email integration
+- SEO-optimized metadata
+- Open Graph social sharing
+- Sitemap and robots configuration
+- JSON-LD structured data
+- Accessible and reusable UI components
+
+##  Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI:** shadcn/ui
+- **Icons:** Lucide React
+- **Internationalization:** next-intl
+- **Email:** Resend
+- **Deployment:** Vercel
+
+##  Project Structure
+
+```text
+.
+├── app/              # Application routes and pages
+├── components/       # Reusable UI components
+├── lib/              # Utilities and shared logic
+├── public/           # Static assets
+└── ...
+```
+
+The project follows a component-based architecture with a focus on reusable, maintainable UI.
+
+##  Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm, pnpm, yarn, or bun
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+cd <project-directory>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file and add the required environment variables.
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application uses environment variables for configuration and external services.
 
-## Learn More
+Example:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+RESEND_API_KEY=your_resend_api_key
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Never commit real API keys or other secrets to the repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  Internationalization
 
-## Deploy on Vercel
+The portfolio supports multiple languages using `next-intl`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Translation files contain the localized content used throughout the portfolio, allowing the interface to be presented in different languages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  SEO
+
+The portfolio includes several SEO features:
+
+- Page metadata
+- Open Graph metadata
+- `sitemap.ts`
+- `robots.ts`
+- JSON-LD structured data
+
+These help search engines understand and index the portfolio and improve how pages appear when shared.
+
+##  Testing
+
+Tests are included for key portfolio components and functionality.
+
+Run the test suite with the project's configured test command.
+
+##  Deployment
+
+The portfolio is deployed using **Vercel**.
+
+Production deployments can be connected to the GitHub repository so that changes can be automatically built and deployed.
+
+##  Contact
+
+For professional inquiries or collaboration opportunities, you can get in touch through the contact section of the portfolio.
